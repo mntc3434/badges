@@ -8,9 +8,11 @@ int main(){
   int b;
   cin>>a;
   cin>>b;
-  cout<<a+b;
-  if(a==1){
-    cout<<"hey brothers ";
-  }
+  cout<<"can you enter any number to chak if its negative or posative ";
+  cin>>a;
+
+  if(a<0){
+    cout<<"its negative number ";
+  
   return 0;
 }
